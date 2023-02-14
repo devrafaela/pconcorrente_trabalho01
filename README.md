@@ -12,7 +12,6 @@ SOBRE O TRABALHO:
  
  
 - feito com JavaFx 19, Java 8 e SceneBuilder
-- `src`: the folder to maintain sources
 - icon do projeto:
 
 
