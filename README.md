@@ -14,6 +14,8 @@ SOBRE O TRABALHO:
 - feito com JavaFx 19, Java 8 e SceneBuilder
 - `src`: the folder to maintain sources
 
+
+![](https://github.com/devrafaela/pconcorrente_trabalho01/blob/main/src/view/images/fita-metrica.png)
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
