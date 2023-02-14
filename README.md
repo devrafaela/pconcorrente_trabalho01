@@ -13,6 +13,8 @@ SOBRE O TRABALHO:
  
 - feito com JavaFx 19, Java 8 e SceneBuilder
 - `src`: the folder to maintain sources
-
 - icon do projeto:
+
+
+
 ![](https://github.com/devrafaela/pconcorrente_trabalho01/blob/main/src/view/images/fita-metrica.png)
