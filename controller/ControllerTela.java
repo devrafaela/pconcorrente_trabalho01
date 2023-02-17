@@ -26,7 +26,7 @@ public class ControllerTela implements Initializable {
   private TextField valorParaConverter;   // -- TextField para receber valor para converter -- // 
   
   @FXML
-  private Label valorConvertido;   // -- Label que irá retornar o valor convertido -- //
+  private Label valorConvertido;   // -- Label que ira retornar o valor convertido -- //
 
   @FXML 
   private ChoiceBox <String> choiceBoxEntrada;   // -- ChoiceBox para selecionar a primeira unidade de medida de comprimento -- //
@@ -35,15 +35,15 @@ public class ControllerTela implements Initializable {
   private ChoiceBox <String> choiceBoxSaida;   // -- ChoiceBox para selecionar a segunda unidade de medida de comprimento -- //
 
   @FXML
-  // -- Vetor tipo String inicializado com os nomes das medidas de comprimento que serão armazenados em: choicheBoxEntrada  -- //
+  // -- Vetor tipo String inicializado com os nomes das medidas de comprimento que serao armazenados em: choicheBoxEntrada  -- //
   private String listaDeMedidaEntrada [] = {"Quilometro(s)", "Metro(s)", "Centimetros(s)", "Milimetro(s)"}; 
   
   @FXML
-  // -- Vetor tipo String inicializado com os nomes das medidas de comprimento que serão armazenados em: choicheBoxSaida  -- //
+  // -- Vetor tipo String inicializado com os nomes das medidas de comprimento que serao armazenados em: choicheBoxSaida  -- //
   private String listaDeMedidaSaida [] = {"Quilometro(s)", "Metro(s)", "Centimetro(s)", "Milimetro(s)"};
 
   @FXML
-  private Label alerta;   // -- Label usada para mostrar mensagem de alerta para o usuário -- //
+  private Label alerta;   // -- Label usada para mostrar mensagem de alerta para o usuario -- //
 
   /**
    * Controla os eventos do botaoConverter na interface 
@@ -64,7 +64,7 @@ public class ControllerTela implements Initializable {
      */
 
 
-    case 0: // -- Caso seja selecionado "Quilometro(s)" (indice igual a 0) no choiceBoxEntrada, será feito:  --  //
+    case 0: // -- Caso seja selecionado "Quilometro(s)" (indice igual a 0) no choiceBoxEntrada, sera feito:  --  //
     
     // -- O if ira verificar caso seja escolhido o mesmo tipo de conversao para os dois ChoiceBox's, sera retornado uma mensagem de alerta  -- //  
     if (choiceBoxEntrada.getSelectionModel().getSelectedIndex() == choiceBoxSaida.getSelectionModel().getSelectedIndex()){  
@@ -215,7 +215,7 @@ public class ControllerTela implements Initializable {
     }
   }
 
-    /**
+  /**
    * Define as acoes que serao executadas quando a classe for iniciada
    * @param url
    * @param rb
@@ -227,9 +227,6 @@ public class ControllerTela implements Initializable {
     choiceBoxEntrada.getItems().addAll(listaDeMedidaEntrada);
     // Eh armazenado no choicheBoxSaida o vetor listaDeMedidaSaida que contem os nomes "Quilometro(s)", "Metro(s)", "Centimetro(s)", "Milimetro(s)"
     choiceBoxSaida.getItems().addAll(listaDeMedidaSaida);
-   // } catch (Exception e) {
-   //   System.out.println("Ocorreu uma excecao");
-   // }
   }
 
 }
