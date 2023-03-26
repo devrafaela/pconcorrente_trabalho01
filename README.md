@@ -12,8 +12,3 @@ SOBRE O TRABALHO:
  
  
 - feito com JavaFx 19, Java 8 e SceneBuilder
-- icon do projeto:
-
-
-
-![](https://github.com/devrafaela/pconcorrente_trabalho01/blob/main/src/view/images/fita-metrica)
