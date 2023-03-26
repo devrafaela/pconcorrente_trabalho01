@@ -16,4 +16,4 @@ SOBRE O TRABALHO:
 
 
 
-
+![](https://github.com/devrafaela/pconcorrente_trabalho01/blob/main/src/view/images/fita-metrica.png)
